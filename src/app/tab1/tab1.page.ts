@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+  valor:number=7;
+  alimento:number=10;
 
+  produtos:any[]=[];
   constructor() {}
-
+  async salvar(){}
 }
